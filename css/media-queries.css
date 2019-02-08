@@ -1,0 +1,92 @@
+@media all and (max-width : 1200px) {
+	#header li{margin-right:15px;}
+	
+	#nachrichten div{
+		padding:5px;
+	}
+	
+	
+	
+	.grid-container-news{
+		max-width:1200px;
+		width: 100%;
+		margin:0 auto;
+	
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/* grid-template-rows: minmax(100px, auto); */
+		grid-template-rows:minmax(220px, auto);
+		grid-gap: 20px;
+		grid-template-areas: 
+			"NWerbig 	NWerbig NWerbig"
+			"NPres		NPres	NPres"
+			"NAng 		NAng	NAng"
+			"NLambo		NLambo	NLambo"
+			"NBaum		NBaum	NBaum"
+			"NSnow		NSnow	NSnow"
+			"NWeb		NWeb	NWeb";
+		
+	}
+
+	
+	#Nimg_Pres, #Nimg_Baum, #Nimg_Lambo, #Nimg_Snow, #Nimg_Ang, #Nimg_Web{
+		height:220px;
+		width:auto;
+		float:left;
+		margin-right:5px;
+	}
+	
+	#Nimg_Snow, #Nimg_Ang, #Nimg_Web{}
+	
+}
+
+@media all and (max-width : 900px) {
+	#header{display:none;}
+	#mobile_header{display:inline;}
+	#home_title{font-size:3em;}
+	#home_slogan{font-size:1em;}
+	#kontakt_title{font-size:3em;}
+	#kontakt_slogan{font-size:1em;}
+}
+
+@media all and (max-width : 850px) {
+	
+}
+
+@media all and (max-width : 700px) {	
+	.grid-container-news{
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 
+			"NWerbig NWerbig"
+			"NPres	NPres"
+			"NAng	NAng"
+			"NLambo	NLambo"
+			"NBaum	NBaum"
+			"NSnow	NSnow"
+			"NWeb	NWeb";
+		grid-gap: 10px;
+	}
+
+	.N_img{display:none;}
+	#Nimg_Pres	{display:none;}
+	#Nimg_Ang	{display:none;}
+	#Nimg_Lambo	{display:none;}
+	#Nimg_Snow	{display:none;}
+	#Nimg_Baum	{display:none;}
+	#Nimg_Web	{display:none;}
+	
+}
+
+@media all and (max-width : 660px) {
+}
+
+
+@media all and (max-width : 560px) {
+	#home_title{font-size:2.5em;}
+	.footer{padding:4% 3% 4% 3%;}
+}
+
+@media all and (max-width : 460px) {
+	#mobile_nav_logo{display:none;}
+	#home_title{font-size:2em;}
+}
