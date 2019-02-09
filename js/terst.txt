@@ -1,0 +1,45 @@
+.nav_logo{
+	height:70px;
+	margin-left:10px;
+	position:absolute;
+	left:0;
+}
+
+
+
+
+<li class="nav_content_li_first"><a href="index.html"><img src="../media/mercedes-benz-9.svg" class="nav_logo"></a></li>
+
+
+
+
+
+
+
+
+
+
+    window.addEventListener('load', function() {
+}, false);
+    $('.menue').click(function(e){
+      $('#mobile_nav_content li').toggleClass('offen');
+      e.preventDefault();
+    });
+	
+	
+$("#mobile_nav_content li").each(function(i) {
+    $(this).delay(100 * i).fadeIn(500);
+});
+
+
+
+
+    window.addEventListener('load', function() {
+}, false);
+    $('.menue').click(function(e){
+      $('#mobile_nav_content li').toggleClass('offen');
+      e.preventDefault();
+    });
+
+	
+	
