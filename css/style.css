@@ -305,11 +305,23 @@ li{display:inline; float:left;}
 
 /* ----- ----- ----- */
 
+/* ----- 404 ----- */
 
 
+#NotFoundPage{
+	padding-top:120px;
+	text-align:center;
+}
 
+#test{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	max-width:600px;
+}
 
-
+/* ----- ----- ----- */
 
 
 
