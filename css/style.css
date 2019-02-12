@@ -241,7 +241,7 @@ li{display:inline; float:left;}
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	/* grid-template-rows: minmax(220px, auto); */
-	grid-template-rows:280px 280px 280px;
+	grid-template-rows:290px 290px 290px;
 	grid-gap: 20px;
 	grid-template-areas: 
 		"NWerbig 	NPres 		NPres 			NAng"
