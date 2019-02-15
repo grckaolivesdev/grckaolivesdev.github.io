@@ -18,18 +18,20 @@
 		grid-template-rows:minmax(220px, auto);
 		grid-gap: 20px;
 		grid-template-areas: 
-			"NPres		NPres	NPres"
-			"NAng 		NAng	NAng"
-			"NLambo		NLambo	NLambo"
-			"NBaum		NBaum	NBaum"
-			"NSnow		NSnow	NSnow"
-			"NWeb		NWeb	NWeb";
+			"NNobel 	NNobel 		NNobel"
+			"NFormula 	NFormula 	NFormula"
+			"NPres		NPres		NPres"
+			"NAng 		NAng		NAng"
+			"NLambo		NLambo		NLambo"
+			"NBaum		NBaum		NBaum"
+			"NSnow		NSnow		NSnow"
+			"NWeb		NWeb		NWeb";
 		
 	}
 	
 	.N_Werbig{display:none;}
 	
-	#Nimg_Pres, #Nimg_Baum, #Nimg_Lambo, #Nimg_Snow, #Nimg_Ang, #Nimg_Web{
+	#Nimg_Pres, #Nimg_Baum, #Nimg_Lambo, #Nimg_Snow, #Nimg_Ang, #Nimg_Web, #Nimg_Formula, #Nimg_Nobel{
 		height:220px;
 		width:auto;
 		float:left;
@@ -56,6 +58,8 @@
 	.grid-container-news{
 		grid-template-columns: 1fr 1fr;
 		grid-template-areas: 
+			"NNobel 	NNobel"
+			"NFormula 	NFormula"
 			"NPres	NPres"
 			"NAng	NAng"
 			"NLambo	NLambo"
@@ -75,10 +79,10 @@
 	
 	
 	
-	#Nimg_Pres, #Nimg_Ang, #Nimg_Lambo, #Nimg_Snow, #Nimg_Baum, #Nimg_Web{
+	#Nimg_Pres, #Nimg_Ang, #Nimg_Lambo, #Nimg_Snow, #Nimg_Baum, #Nimg_Web, #Nimg_Formula, #Nimg_Nobel{
 		max-width:100%;
 		max-height:220px;
-		margin-left: calc(50% + 5px);
+		margin-left: calc(50% + 0px);
 		transform: translateX(-50%);
 		z-index:-10;}
 	/* #Nimg_Ang	{max-width:100%;max-height:220px;margin:0 auto;} */

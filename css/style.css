@@ -230,6 +230,7 @@ li{display:inline; float:left;}
 #nachrichten h1{
 	font-size: 3.5em;
 	text-align:center;
+	margin:1em 0 1em 0;
 }
 
 
@@ -244,6 +245,8 @@ li{display:inline; float:left;}
 	grid-template-rows:290px 290px 290px;
 	grid-gap: 20px;
 	grid-template-areas: 
+		"NNobel 	NNobel 		NFormula 		NFormula"
+		"NNobel 	NNobel 		NFormula 		NFormula"
 		"NWerbig 	NPres 		NPres 			NAng"
 		"NLambo		NLambo		NLambo			NAng"
 		"NSnow		NSnow		NBaum			NBaum"
@@ -281,16 +284,18 @@ li{display:inline; float:left;}
 	height:100%;
 	float:left;
 	margin-right:5px;
+	max-height:290px;
 }
 
-#Nimg_Snow, #Nimg_Ang, #Nimg_Web{
+#Nimg_Snow, #Nimg_Ang, #Nimg_Web, #Nimg_Nobel, #Nimg_Formula{
 	width:100%;
 }
 
 
 .N_Lambo a{color:white;}
 
-
+.N_Nobel{grid-area:NNobel;}
+.N_Formula{grid-area:NFormula;}
 .N_Web{grid-area:NWeb;}
 .N_Snow{grid-area:NSnow;}
 .N_Lambo{grid-area:NLambo;}
@@ -299,6 +304,7 @@ li{display:inline; float:left;}
 .N_Ang{grid-area:NAng;}
 .N_Pres{grid-area:NPres;}
 .N_Baum{grid-area:NBaum;}
+
 
 
 
