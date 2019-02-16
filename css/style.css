@@ -328,9 +328,38 @@ li{display:inline; float:left;}
 }
 
 /* ----- ----- ----- */
+/* ----- Brand ----- */
 
+#brand{
+	padding-top:80px;
+	width:100%;
+}
 
+#Y1{width:100%;}
 
+.brand_gerade{
+	height:calc(100vh - 80px);
+	background-color:green;
+}
+.brand_ungerade{
+	height:calc(100vh - 80px);
+	background-color:blue;
+}
+
+.brand_h1{
+	font-size: 3.5em;
+	text-align:center;
+	text-decoration:underline;
+}
+
+#brand_arrow{
+	width:6em;
+	margin-left: calc(50% - 3em);
+}
+
+#brand_body{
+	min-height: calc(100% - 6em);
+}
 
 
 

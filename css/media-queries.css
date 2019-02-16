@@ -48,6 +48,7 @@
 	#home_slogan{font-size:1em;}
 	#kontakt_title{font-size:3em;}
 	#kontakt_slogan{font-size:1em;}
+	#nachrichten h1{margin:0.5em 0 0.5em 0;}
 }
 
 @media all and (max-width : 850px) {
@@ -81,7 +82,8 @@
 	
 	#Nimg_Pres, #Nimg_Ang, #Nimg_Lambo, #Nimg_Snow, #Nimg_Baum, #Nimg_Web, #Nimg_Formula, #Nimg_Nobel{
 		max-width:100%;
-		max-height:220px;
+		max-height:250px;
+		height:auto;
 		margin-left: calc(50% + 0px);
 		transform: translateX(-50%);
 		z-index:-10;}
