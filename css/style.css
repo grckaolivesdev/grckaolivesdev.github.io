@@ -337,12 +337,27 @@ li{display:inline; float:left;}
 
 #Y1{width:100%;}
 
-.brand_gerade{
+
+.brand_first{
 	height:calc(100vh - 80px);
 	background-color:green;
 }
-.brand_ungerade{
+
+.brand_last{
+	height:calc(100vh - 195px);
+	background-color:green;
+}
+
+
+.brand_gerade{
 	height:calc(100vh - 80px);
+}
+.brand_gerade, .brand_ungerade{
+	height:calc(100vh - 60px);
+	background-color:green;
+}
+
+.brand_ungerade{
 	background-color:blue;
 }
 
