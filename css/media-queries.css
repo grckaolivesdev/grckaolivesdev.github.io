@@ -101,6 +101,8 @@
 	.grid-container-news{
 		grid-template-columns: 1fr 1fr;
 		grid-template-areas: 
+			"NNobel 	NNobel"
+			"NFormula 	NFormula"
 			"NPres	NPres"
 			"NAng	NAng"
 			"NLambo	NLambo"
