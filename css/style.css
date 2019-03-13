@@ -382,6 +382,12 @@ li{display:inline; float:left;}
 /* ----- ----- ----- */
 /* ----- Footer ----- */
 
+#contact{padding-top:500px;}
+
+
+/* ----- ----- ----- */
+/* ----- Footer ----- */
+
 #footer{
 	width:100%;
 	max-width:1200px;
