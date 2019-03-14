@@ -114,6 +114,29 @@
 	.N_Werbig{display:none;}
 
 
+	
+	
+	#footer.contact{
+		position:static;
+		width:100%;
+		max-width:1200px;
+		height:auto;
+		margin:0 auto;
+		margin-top:2%;
+		border-top:3px solid rgba(255, 255, 255, 0.3);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 
