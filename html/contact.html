@@ -27,7 +27,7 @@
 	<header id="header" class="large">
 		<div class="container">
 			<nav id="navigation">
-				<a href="index.html"><img id="nav_logo" class="large" alt="nav_logo" src="../media/Logo2.png"></a>
+				<a href="../index.html"><img id="nav_logo" class="large" alt="nav_logo" src="../media/Logo2.png"></a>
 				<ul id="nav_content">
 					<li><a href="../index.html">Σπίτι</a></li>
 					<li><a href="../index.html#nachrichten">Νέα</a></li>
@@ -70,23 +70,23 @@
 		<h1>Επικοινωνία</h1>
 		<form id="contact" action="https://formspree.io/aco.grcka@gmail.com" method="POST">
 			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 			
 			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 			
 			<label for="category">Category</label>
-			<select id="category" name="category">
+			<select id="category" name="category" required>
 				<option value="olives">Shop</option>
 				<option value="feedback">Feedback</option>
 				<option value="question">Question</option>
 			</select>
 			
 		<label for="subject">Subject</label>
-		<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea>
 			
 		<label for="_replyto">E-Mail</label>
-		<input type="email" name="_replyto" placeholder="dini mail">
+		<input type="email" name="_replyto" placeholder="Your E-Mail" required>
 		
 		<input type="submit" value="Send">
 	</form>
@@ -100,9 +100,9 @@
 			<div id="footer_left" class="footer">&copy; Aco Grčka</div>
 			<div id="footer_right" class="footer">
 				<a href="https://www.instagram.com/aco.grcka/">Insta: Aco.Grcka</a>
-				<a href="#">Contact</a>
-				<a href="#">Newsletter</a>
-				<a href="#verlinkung_home">Nach Oben</a>
+				<a href="#">Επικοινωνία</a>
+				<a href="404.html">Ενημερωτικό δελτίο</a>
+				<a href="../index.html">ανεβαίνω</a>
 			</div>
 		</footer>
 	
