@@ -404,7 +404,7 @@ li{display:inline; float:left;}
 
 #contact label, #contact input, #contact textarea, #contact select{
 	display: block;
-	width:60%;
+	width:100%;
 	max-width:1200px;
 	margin:0 auto;
 }
@@ -453,7 +453,7 @@ li{display:inline; float:left;}
 #footer.contact{
 	position:absolute;
 	bottom:0px;
-	left:377px;
+	left:360px;
 	border-top:3px solid rgba(255, 255, 255, 0.3);
 }
 

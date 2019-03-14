@@ -119,15 +119,17 @@
 	#footer.contact{
 		position:static;
 		width:100%;
-		max-width:1200px;
-		height:auto;
-		margin:0 auto;
-		margin-top:2%;
-		border-top:3px solid rgba(255, 255, 255, 0.3);
+		margin-top:3em;
 	}
 	
 	
+	#contact label, #contact input, #contact textarea, #contact select{
+		width:90%;
+	}
 	
+	#contact1{
+		padding-top:100px;
+	}
 	
 	
 	
