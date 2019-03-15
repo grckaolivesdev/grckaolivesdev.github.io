@@ -344,10 +344,9 @@ li{display:inline; float:left;}
 }
 
 .brand_last{
-	height:calc(100vh - 195px);
-	background-color:green;
+	height:calc(100vh - 190px);
+	background-color:yellow;
 }
-
 
 .brand_gerade{
 	height:calc(100vh - 80px);
@@ -365,7 +364,29 @@ li{display:inline; float:left;}
 	font-size: 3.5em;
 	text-align:center;
 	text-decoration:underline;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
+
+.brand-content-grid{
+	width: 100%;
+	max-width: 1200px;
+	margin:auto;
+
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+}
+
+.brand-content-grid img{
+	height: auto;
+	width: 100%;
+}
+
+.brand-content-grid p{
+	margin-top: 3em;
+}
+
 
 #brand_arrow{
 	width:6em;
@@ -458,12 +479,6 @@ li{display:inline; float:left;}
 	 margin-top:-100px;
 }
 
-/* #footer.contact{
-	position:absolute;
-	bottom:0px;
-	left:360px;
-	border-top:3px solid rgba(255, 255, 255, 0.3);
-} */
 
 #footer_insta{height:1em;}
 
