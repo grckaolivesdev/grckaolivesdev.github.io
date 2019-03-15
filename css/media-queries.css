@@ -47,6 +47,37 @@
 
 }
 
+@media all and (max-width : 1000px) {
+	.brand-content-grid{
+		width: 100%;
+		max-width: 1200px;
+		margin:auto;
+
+		display:grid;
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+	}
+
+	.brand-content-grid img{
+		max-width: 450px;
+		margin:0 auto;
+	}
+
+	.brand-content-grid p{
+		margin-top: 0em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+
+	.brand_h1{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+
+}
+
+
 @media all and (max-width : 900px) {
 	#header{display:none;}
 	#mobile_header{display:inline;}

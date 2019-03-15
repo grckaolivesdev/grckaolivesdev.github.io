@@ -385,6 +385,7 @@ li{display:inline; float:left;}
 
 .brand-content-grid p{
 	margin-top: 3em;
+	display: block;
 }
 
 
