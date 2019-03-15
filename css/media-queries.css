@@ -193,8 +193,30 @@
 		width:90%;
 	}
 
-	#contact1{
-		padding-top:100px;
+	#contact1{padding-top:100px;}
+
+	#brand_arrow{
+		display: none;
+	}
+
+
+	.brand_first{
+		height: auto;
+		min-height:calc(100vh - 80px);
+	}
+
+	.brand_last{
+		height: auto;
+		min-height:calc(100vh - 190px);
+	}
+
+	.brand_gerade{
+		height: auto;
+		min-height:calc(100vh - 80px);
+	}
+	.brand_gerade, .brand_ungerade{
+		height: auto;
+		min-height:calc(100vh - 60px);
 	}
 
 
