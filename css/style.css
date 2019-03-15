@@ -22,7 +22,7 @@ body{
   background-color:#a8d2a0;
   width:100%;
   height:100%;
-  
+
 }
 
 html{
@@ -165,7 +165,7 @@ li{display:inline; float:left;}
 	font-size: 18px;
 	line-height: 60px;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-	
+
 }
 
 
@@ -244,7 +244,7 @@ li{display:inline; float:left;}
 	/* grid-template-rows: minmax(220px, auto); */
 	grid-template-rows:290px 290px 290px;
 	grid-gap: 20px;
-	grid-template-areas: 
+	grid-template-areas:
 		"NNobel 	NNobel 		NFormula 		NFormula"
 		"NNobel 	NNobel 		NFormula 		NFormula"
 		"NWerbig 	NPres 		NPres 			NAng"
@@ -252,11 +252,11 @@ li{display:inline; float:left;}
 		"NSnow		NSnow		NBaum			NBaum"
 		"NSnow		NSnow		NWeb			NWeb"
 		"NSnow		NSnow		NWeb			NWeb";
-	
+
     /* overflow: hidden; */
-	
-	
-	
+
+
+
 }
 
 
@@ -266,7 +266,7 @@ li{display:inline; float:left;}
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 	background-color:#87b771;
-	
+
 }
 
 .grid-container-news div .DateNews{
@@ -382,23 +382,14 @@ li{display:inline; float:left;}
 /* ----- ----- ----- */
 /* ----- Footer ----- */
 
-/* #contact{padding-top:500px;} */
 
-#contact1{
-	display: table;
-    width: 100%;
-	padding-top:150px;
-	margin:0 auto;
-    height:100vh;
-    /* padding: 250px 0; */
-    text-align: center;
-    color: white;
-    background: url("../media/contactback.jpg") no-repeat bottom center scroll;
-    background-color: #a8d2a0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+
+
+.body-contact{
+	background-image: url("../media/contactback.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 
@@ -415,7 +406,7 @@ li{display:inline; float:left;}
 	font-size: 1em;
 	text-align:left;
 }
- 
+
 
 #contact input, #contact select{
 	height: 2em;
@@ -430,7 +421,18 @@ li{display:inline; float:left;}
 	margin-top: 2%;
 }
 
+#section-contact{
+	padding-top: 100px;
+	min-height: 100%;
+	padding-left: 1%;
+	padding-right:1%;
+}
 
+.contact_h1{
+	font-size: 3.5em;
+	text-align:center;
+	text-decoration:underline;
+}
 
 
 
@@ -447,29 +449,35 @@ li{display:inline; float:left;}
 	margin:0 auto;
 	border-top:3px solid rgba(0, 0, 0, 0.3);
 	margin-top:2%;
-	
+
 }
 
-#footer.contact{
+#footer.footer-contact{
+	 margin-top: -100px;
+	 border-top:3px solid rgba(255, 255, 255, 0.3);
+	 margin-top:-100px;
+}
+
+/* #footer.contact{
 	position:absolute;
 	bottom:0px;
 	left:360px;
 	border-top:3px solid rgba(255, 255, 255, 0.3);
-}
+} */
 
 #footer_insta{height:1em;}
 
 #footer_left{
 	float:left;
 	text-align:left;
-	
+
 	/* background-color:yellow; */
 }
 
 #footer_right{
 	float:right;
 	text-align:right;
-	
+
 	/* background-color:orange; */
 }
 
@@ -478,7 +486,7 @@ li{display:inline; float:left;}
 	height:100%;
 	padding:3%;
 	font-family:Arial;
-	
+
 }
 
 .footer a{
@@ -492,22 +500,3 @@ li{display:inline; float:left;}
 
 
 /* ----- ----- ----- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

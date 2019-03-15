@@ -1,23 +1,29 @@
+@media all and (max-width : 1270px) {
+	#header.greek li{margin-right:10px;}
+}
+
+
+
 @media all and (max-width : 1200px) {
 	#header li{margin-right:15px;}
-	
+
 	#nachrichten div{
 		padding:5px;
 	}
-	
-	
-	
+
+
+
 	.grid-container-news{
 		max-width:1200px;
 		width: 100%;
 		margin:0 auto;
-	
+
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		/* grid-template-rows: minmax(100px, auto); */
 		grid-template-rows:minmax(220px, auto);
 		grid-gap: 20px;
-		grid-template-areas: 
+		grid-template-areas:
 			"NNobel 	NNobel 		NNobel"
 			"NFormula 	NFormula 	NFormula"
 			"NPres		NPres		NPres"
@@ -26,19 +32,19 @@
 			"NBaum		NBaum		NBaum"
 			"NSnow		NSnow		NSnow"
 			"NWeb		NWeb		NWeb";
-		
+
 	}
-	
+
 	.N_Werbig{display:none;}
-	
+
 	#Nimg_Pres, #Nimg_Baum, #Nimg_Lambo, #Nimg_Snow, #Nimg_Ang, #Nimg_Web, #Nimg_Formula, #Nimg_Nobel{
 		height:220px;
 		width:auto;
 		float:left;
 		margin-right:5px;
 	}
-	
-	
+
+
 }
 
 @media all and (max-width : 900px) {
@@ -49,16 +55,17 @@
 	#kontakt_title{font-size:3em;}
 	#kontakt_slogan{font-size:1em;}
 	#nachrichten h1{margin:0.5em 0 0.5em 0;}
+	.contact_h1{font-size: 2.5em;}
 }
 
 @media all and (max-width : 850px) {
-	
+
 }
 
-@media all and (max-width : 700px) {	
+@media all and (max-width : 700px) {
 	.grid-container-news{
 		grid-template-columns: 1fr 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 			"NNobel 	NNobel"
 			"NFormula 	NFormula"
 			"NPres	NPres"
@@ -77,9 +84,9 @@
 	/* #Nimg_Snow	{display:none;} */
 	/* #Nimg_Baum	{display:none;} */
 	/* #Nimg_Web	{display:none;} */
-	
-	
-	
+
+
+
 	#Nimg_Pres, #Nimg_Ang, #Nimg_Lambo, #Nimg_Snow, #Nimg_Baum, #Nimg_Web, #Nimg_Formula, #Nimg_Nobel{
 		max-width:100%;
 		max-height:250px;
@@ -92,15 +99,15 @@
 	/* #Nimg_Snow	{max-width:100%;max-height:220px;margin:0 auto;} */
 	/* #Nimg_Baum	{max-width:100%;max-height:220px;margin:0 auto;} */
 	/* #Nimg_Web	{max-width:100%;max-height:220px;margin:0 auto;} */
-	
+
 }
 
 @media all and (max-width : 375px) {
 /* iPHX */
-	
+
 	.grid-container-news{
 		grid-template-columns: 1fr 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 			"NNobel 	NNobel"
 			"NFormula 	NFormula"
 			"NPres	NPres"
@@ -114,31 +121,26 @@
 	.N_Werbig{display:none;}
 
 
-	
-	
-	#footer.contact{
-		position:static;
-		width:100%;
-		margin-top:3em;
-	}
-	
-	
+
+
+
+
 	#contact label, #contact input, #contact textarea, #contact select{
 		width:90%;
 	}
-	
+
 	#contact1{
 		padding-top:100px;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -150,4 +152,5 @@
 @media all and (max-width : 460px) {
 	#mobile_nav_logo{display:none;}
 	#home_title{font-size:2em;}
+	.contact_h1{font-size: 2em;}
 }
